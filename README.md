@@ -52,9 +52,11 @@ ai_safety_poc/
 └── README.md
 ##  Setup & Installation
 
+## 🚀 Setup & Installation
+
 **1. Clone the Repository**
 ```bash
-git clone <https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept->
+git clone [https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept-](https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept-)
 cd ai_safety_poc
 
 # For Windows
