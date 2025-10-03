@@ -56,8 +56,11 @@ ai_safety_poc/
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept-](https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept-)
+git clone https://github.com/Zaidzayn/-AI-Safety-Models---Proof-of-Concept-
 cd ai_safety_poc
+2. Create and Activate a Virtual Environment
+
+Bash
 
 # For Windows
 python -m venv venv
@@ -66,35 +69,40 @@ python -m venv venv
 # For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+3. Install Dependencies
 
-#Install Dependencies
+Bash
+
 pip install -r requirements.txt
+4. Download Datasets
 
-## 4. Download Datasets**
-Place the required datasets in the data/raw/ directory.
+Place the required dataset in the data/raw/ directory.
 
 Jigsaw Dataset: Download train.csv from the Jigsaw Toxic Comment Classification Challenge and place it at data/raw/train.csv.
 
 5. Pre-trained Models
+
 This repository requires trained model files in the models/ directory. You can train them yourself by running the scripts in the src/ folder on a GPU environment like Google Colab.
 
 USAGE
 1. Prepare the Data
+
 Run the preprocessing script to clean and split the datasets.
 
 Bash
 
 python src/data_preprocessing.py
 2. Run the Streamlit Demo
+
 This command launches the interactive web application.
 
 Bash
 
- streamlit run app.py
+streamlit run app.py
 3. Run Tests
+
 To run the automated tests, use pytest.
 
 Bash
 
-pytest 
-
+pytest
