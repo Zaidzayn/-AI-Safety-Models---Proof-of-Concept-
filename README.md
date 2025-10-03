@@ -27,6 +27,7 @@ The system is built around a central **`SafetyOrchestrator`** class, which acts 
 
 ## 📂 Project Structure
 
+```text
 ai_safety_poc/
 ├── app.py                      # The main Streamlit web application
 ├── data/
@@ -49,7 +50,6 @@ ai_safety_poc/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
 ##  Setup & Installation
 
 **1. Clone the Repository**
