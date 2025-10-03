@@ -1,0 +1,18 @@
+# Core ML/NLP
+torch
+transformers
+datasets
+scikit-learn
+accelerate # For optimized Hugging Face training
+evaluate
+sentence-transformers
+
+# Data Handling & Utilities
+pandas
+tqdm
+
+# Testing
+pytest
+
+peft 
+bitsandbytes
